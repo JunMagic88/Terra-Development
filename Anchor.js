@@ -1,3 +1,5 @@
+//Basic interaction with Anchor
+
 import { LCDClient, Wallet, MnemonicKey, Fee} from '@terra-money/terra.js';
 import {fabricateMarketRedeemStable, fabricateMarketDepositStableCoin} from '@anchor-protocol/anchor.js';
 import {AddressProviderFromJson} from "@anchor-protocol/anchor.js"; 
