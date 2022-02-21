@@ -1,4 +1,5 @@
 //Refer to Terra docs here: https://docs.terra.money/docs/develop/sdks/terra-js/common-examples.html
+//Test
 
 import {
   MsgExecuteContract,
