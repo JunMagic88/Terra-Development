@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@anchor-protocol/anchor-earn": "^1.1.1",
+    "@anchor-protocol/anchor.js": "^4.0.0",
+    "@mirror-protocol/mirror.js": "^2.1.4",
+    "@terra-money/terra.js": "^3.0.4"
+  },
+  "type": "module"
+}
