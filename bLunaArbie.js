@@ -4,14 +4,15 @@ Luna <> bLuna Arbitrage Bot by JunMagic
 
 PRE-REQUISITES:
   1. Install node.js: https://nodejs.org/en/download/
-  2. Save this .js file to  a local folder that only YOU can access
-  3. Create an empty 'bLuna.txt' file in the same folder for logging
-  4. Create a new terrastation wallet & note seed phrase (NEVER run bots with your main wallet): 
+  2. Install terra.js: https://github.com/terra-money/terra.js
+  3. Save this .js file to  a local folder that only YOU can access
+  4. Create an empty 'bLuna.txt' file in the same folder for logging
+  5. Create a new terrastation wallet & note seed phrases (NEVER run bots with your main wallet): 
     https://docs.terra.money/docs/learn/terra-station/download/terra-station-desktop.html
-  5. Transer some UST (for gas) and Luna to the test wallet
+  6. Transer some UST (for gas) and Luna to the test wallet
 
 SETUP & RUN:
-  1. Replace 'xxxx xxxx xxxx' with your test wallet 'seed phases' - NEVER SHOW THIS TO ANYONE! */
+  1. Replace 'xxxx xxxx xxxx' with your test wallet 'seed phrases' - NEVER SHOW THIS TO ANYONE! */
   const mk = new MnemonicKey({
     mnemonic: 'xxxx xxxx xxxx',
   });
